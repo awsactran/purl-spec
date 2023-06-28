@@ -73,6 +73,17 @@ bitbucket
 
       pkg:bitbucket/birkenfeld/pygments-main@244fd47e07d1014f0aed9c
 
+brew
+---------
+``brew`` for applications which are installed via Homebrew package manager using brew install command. 
+
+- The default repository is ``https://formulae.brew.sh/formula/``.
+- The ``name`` is the Application nam` which is often retrieved from dedicated Homebrew location (Reference: https://docs.brew.sh/Installation)
+- The ``version`` is the Application version which is often retrieved from ``INSTALL_RECEIPT.json``
+- Examples::
+
+      pkg:brew/wget@1.21.3
+
 cocoapods
 ---------
 ``cocoapods`` for CocoaPods:
